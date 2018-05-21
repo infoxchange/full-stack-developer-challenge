@@ -6,16 +6,18 @@ In this test, you are expected to write a small web application to manage a list
 
 Use the following structure to model the data
 
-`class Author(Model):
+```
+class Author(Model):
     first_name = models.TextField()
     last_name = models.TextField()
-`
+```
 
-`class Book(Model):
+```
+class Book(Model):
     name = models.TextField()
     isbn = models.TextField()
     author = models.Foreignkey(Author)
-`
+```
 
 Implement the following API endpoints:
 
