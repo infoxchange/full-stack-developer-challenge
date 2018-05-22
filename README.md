@@ -16,7 +16,7 @@ class Author(Model):
 class Book(Model):
     name = models.TextField()
     isbn = models.TextField()
-    author = models.Foreignkey(Author)
+    author = models.ForeignKey(Author)
 ```
 
 Implement the following API endpoints:
@@ -34,7 +34,7 @@ eg:
 * **PUT /author/{{id}}** - Updates an existing author - Expects a JSON body
 * **PUT /book/{{id}}** - Updates an existing book - Expects a JSON body
 
-You are recommended to use **Python/Django** along with [**Django REST Framework**] (http://www.django-rest-framework.org/) to implement your backend and API layer, but you are free to use a different language/framework/libraries you are comfortable with.
+You are recommended to use **Python/Django** along with [**Django REST Framework**](http://www.django-rest-framework.org/) to implement your backend and API layer, but you are free to use a different language/framework/libraries you are comfortable with.
 
 
 ## Frontend implementation
