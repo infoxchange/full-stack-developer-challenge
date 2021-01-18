@@ -1,6 +1,8 @@
 # Full-stack web developer challenge
 
-In this test, you are expected to write a small web application to manage a list of Books. Each book has a name, ISBN, and an author. The test consists of two parts, a RESTful API as the **backend** and the Javascript based **frontend** application
+In this test, you are expected to write a small web application to manage a list of Books. Each book has a name, ISBN, and an author. The test consists of two parts, a RESTful API as the **backend** and the Javascript based **frontend** application.
+
+There is no need to create a PR back to this repository once completed, please provide a link to your project repository for review.
 
 ## Backend implementation
 
